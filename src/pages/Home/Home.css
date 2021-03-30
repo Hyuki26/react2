@@ -1,7 +1,10 @@
 body {
-    background-color: rgb(208, 166, 247);
-}
+    background-image: url(https://i.pinimg.com/originals/8e/bb/96/8ebb96be428c20e1418863602b9c4ae2.gif);
+    background-size: cover;
+};
+
+
 .root{
     text-align: center;
-    color: blue;
-}
+    color: rgb(182, 35, 174);
+};

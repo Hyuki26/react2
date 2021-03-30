@@ -1,14 +1,13 @@
 import React from 'react';
-import './Logo.css';
-import Pika from '../../pics/Surprised_Pikachu_HD.jpg';
+import neon from '../../pics/200w.gif';
 
-function Logo (){
+function Logo (props){
     return(
         //Created a logo with pika pic
         <div>
-            <img src={Pika} className="logo" alt="pic"/>
+            <img src={neon} className='hello' alt="pics"/>
         </div>
     )
-}
+};
 
 export default Logo;

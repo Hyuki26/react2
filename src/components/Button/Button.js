@@ -1,11 +1,12 @@
 import React from 'react';
 import './Button.css'
 
-function Button(){
+function Button(props){
     return(
         <div >
-            <button className="button">Click Me</button>
+            <button className="button" > {props.Name} </button>
         </div>
     )
 }
+
 export default Button;
