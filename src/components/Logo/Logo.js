@@ -1,5 +1,6 @@
 import React from 'react';
-import neon from '../../pics/200w.gif';
+import neon from '../../Pics/200w.gif';
+//import logo from '../Logo/logo';
 
 function Logo (props){
     return(

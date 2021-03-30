@@ -10,6 +10,7 @@ function Home(){
     
 
     return(
+        <div>
         <Grid container spacing={3}>
                 <Button Name = "Home"/>
                 <Button Name = "About"/>
@@ -20,6 +21,7 @@ function Home(){
                 </Grid>
             <Grid ><Logo/></Grid>
         </Grid>
+        </div>
     )
 }
 
